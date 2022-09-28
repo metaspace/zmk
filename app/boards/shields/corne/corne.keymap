@@ -34,7 +34,7 @@
                         bindings = <
   &kp GRAVE     &kp EXCL     &kp AT        &kp HASH      &kp DLLR      &kp PRCNT     &kp CARET     &kp AMPS     &kp STAR         &kp MINUS     &kp EQUAL     &kp BACKSLASH
   &bt BT_CLR    &bt BT_SEL 0 &bt BT_SEL 1  &kp LPAR      &kp RPAR      &none         &none         &kp LBRC     &kp RBRC         &kp UNDER     &kp PLUS      &kp PIPE
-  &trans        &bt BT_SEL 2 &bt BT_SEL 3  &kp LBKT      &kp RBKT      &none         &none         &kp SQT      &kp DQT          &none         &out OUT_TOG  &trans   
+  &trans        &bt BT_SEL 2 &bt BT_SEL 3  &kp LBKT      &kp RBKT      &none         &none         &kp SQT      &kp DQT          &bt BT_CLR    &out OUT_TOG  &trans   
   &trans        &none        &trans        &trans        &none         &trans  
                         >;
                 };
